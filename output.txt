@@ -1,0 +1,137 @@
+*** compiling with clang++ to create an executable called myprogram
+clang version 5.0.1 (tags/RELEASE_501/final)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /opt/rh/llvm-toolset-7/root/usr/bin
+*** running clang-tidy using options from .clang-tidy
+LLVM (http://llvm.org/):
+  LLVM version 5.0.1
+  Optimized build.
+  Default target: x86_64-unknown-linux-gnu
+  Host CPU: broadwell
+*** running myprogram
+xxxxxxxxxxxxxxxxxx x
+x     x       xxxx x
+x xxxxx xxxxx   xx x
+x xxxxx xxxxxxx xx x
+x x          xx xx x
+x xxxxxxxxxx xx    x
+xxxxxxxxxxxxxxxxxxxx
+
+
+Creature is located at 4, 4
+
+Path: EEENNNEEEEEESEESSSEEENNNNN
+xxxxxxxxxxxxxxxxxx*x
+x     x*******xxxx*x
+x xxxxx*xxxxx***xx*x
+x xxxxx*xxxxxxx*xx*x
+x x+****+++++xx*xx*x
+x xxxxxxxxxx+xx****x
+xxxxxxxxxxxxxxxxxxxx
+
+
+--------------------------------------
+xxxxxxxxxxxxxxxxxx x
+x     x       xxxx x
+x xxxxx xxxxx   xx x
+x x   x xxxxxxx xx x
+x x          xx xx x
+x xxxxxxxxxx xx    x
+x    xxxxxxxxx     x
+x    xx            x
+x  xx   x     xxxx x
+x x  xx xxxxx   xx x
+x x  xx xxxxxxx xx x
+x x          xx xx x
+x xxxxxxxxxx xx xxxx
+xxxxxxxxxxxxxxx xxxx
+
+
+Creature is located at 3, 3
+
+Path: EESEENNNEEEEEESEESSSSSWWWWWWSEEEESEESSSS
+xxxxxxxxxxxxxxxxxx+x
+x     x*******xxxx+x
+x xxxxx*xxxxx***xx+x
+x x***x*xxxxxxx*xx+x
+x x  ***+++++xx*xx+x
+x xxxxxxxxxx+xx*+++x
+x    xxxxxxxxx *+++x
+x    xx++*******+++x
+x  xx+++x*****xxxx+x
+x x++xx+xxxxx***xx+x
+x x++xx+xxxxxxx*xx+x
+x x++++++++++xx*xx+x
+x xxxxxxxxxx+xx*xxxx
+xxxxxxxxxxxxxxx*xxxx
+
+
+--------------------------------------
+x xxxxxxxxxxxxxxxxx
+x x       x   x   x
+x xxxxx   x x x x x
+x     x   x x   x x
+xxxxx x   x xxxxx x
+x x   x     x   x x
+x x xxx x  xxxx x x
+x   x           x x
+x xxxxxxx  xxxxxx x
+x                 x
+xxxxxxxxxxxxxxxxx x
+
+
+Creature is located at 3, 3
+
+Path: EESSWWSSWWSSEEEEEEEEEEEEEEEES
+x+xxxxxxxxxxxxxxxxx
+x+x+++++++x+++x+++x
+x+xxxxx+++x+x+x+x+x
+x++***x+++x+x+++x+x
+xxxxx*x+++x+xxxxx+x
+x x***x+++++x+++x+x
+x x*xxx+x++xxxx+x+x
+x***x+++++++++++x+x
+x*xxxxxxx++xxxxxx+x
+x*****************x
+xxxxxxxxxxxxxxxxx*x
+
+
+--------------------------------------
+x xxxxxxxxxxxxxxxxx
+x         x       x
+xxxxxxxxx xxx xxx x
+x     x x x   x   x
+x x x x x x xxx xxx
+x x x   x   x x   x
+xxx xxx xxxxx xxx x
+x   x   x x     x x
+x xxx xxx x xxx x x
+x   x     x x x x x
+x x xxxxxxx x x x x
+x x           x   x
+xxxxxxxxxxxxxxxxx x
+
+
+Creature is located at 0, 1
+
+Path: SEEEEEEEESSSSEENNEENNEEEESSWWSSEESSSSSSS
+x*xxxxxxxxxxxxxxxxx
+x*********x++*****x
+xxxxxxxxx*xxx*xxx*x
+x     x x*x***x***x
+x x x x x*x*xxx*xxx
+x x x   x***x x***x
+xxx xxx xxxxx xxx*x
+x   x   x x     x*x
+x xxx xxx x xxx x*x
+x   x     x x x x*x
+x x xxxxxxx x x x*x
+x x           x  *x
+xxxxxxxxxxxxxxxxx*x
+
+
+--------------------------------------
+Done!
+*** cleaning up, deleting myprogram
+Thu Oct 29 22:30:38 PDT 2020
